@@ -1,16 +1,16 @@
 name: build cli for all platforms
 
-#on:
-#  push:
-#    tags:
-#      - '*'
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-permissions:
-  contents: write
+    tags:
+      - '*'
+#on:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
+#permissions:
+#  contents: write
 
 jobs:
   make-release:
