@@ -51,3 +51,4 @@ jobs:
           md5sum: false
           sha256sum: false
           compress_assets: false
+          build_command: make clean && make build
