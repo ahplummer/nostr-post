@@ -51,6 +51,6 @@ jobs:
           md5sum: false
           sha256sum: false
           compress_assets: false
-          build_command: go build -o nostr-post-${{ github.ref_name }} src/main.go
+          #build_command: go build -o nostr-post-${{ github.ref_name }} src/main.go
           #build_command: go build -o nostr-post-0.0.5-linux-arm64 src/main.go
          # build_command: make clean && make build
